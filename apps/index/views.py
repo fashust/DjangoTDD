@@ -20,3 +20,7 @@ class IndexViewHandler(View):
     """
         simple index page
     """
+    def get(self, request, *args, **kwargs):
+        """
+            get method handler
+        """
